@@ -60,7 +60,9 @@ An intuitive backend API built with Spring Boot, designed for scheduling, managi
 
 ## Screenshots
 
-Include screenshots of the application showcasing key features like user dashboard, admin panel, and appointment management.
+![image](https://github.com/user-attachments/assets/3acd664d-ae81-42dc-9d19-2fe2a3c5fc0e)
+
+
 
 ---
 
