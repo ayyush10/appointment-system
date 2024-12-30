@@ -1,6 +1,6 @@
 # Appointment System
 
-An intuitive web-based application for scheduling, managing, and tracking appointments efficiently. This system is designed to streamline appointment processes, reduce manual efforts, and provide a user-friendly interface.
+An intuitive backend API built with Spring Boot, designed for scheduling, managing, and tracking appointments efficiently. This system is integrated with AWS EC2 for hosting and AWS DocumentDB for database management, offering a robust and scalable solution.
 
 ---
 
@@ -11,7 +11,7 @@ An intuitive web-based application for scheduling, managing, and tracking appoin
 - **Appointment Management**: Users can book, reschedule, and cancel appointments.
 - **Admin Dashboard**: Comprehensive admin panel to manage users, view appointments, and generate reports.
 - **Notifications**: Email or SMS notifications for appointment confirmations and reminders.
-- **Responsive Design**: Fully responsive layout for seamless use on desktops, tablets, and mobile devices.
+- **Scalable Architecture**: Built using Spring Boot and deployed on AWS EC2, ensuring high availability and performance.
 
 ---
 
@@ -29,33 +29,32 @@ An intuitive web-based application for scheduling, managing, and tracking appoin
    cd appointment-system
    ```
 
-3. Install dependencies:
+3. Build the project:
 
    ```bash
-   npm install
+   ./mvnw clean install
    ```
 
 4. Configure environment variables:
 
-   - Create a `.env` file in the root directory.
-   - Add the required environment variables, such as database credentials, API keys, and server configurations.
+   - Create an `application.properties` file in the `src/main/resources` directory.
+   - Add the required environment variables, such as AWS DocumentDB credentials and EC2 configurations.
 
 5. Run the application:
 
    ```bash
-   npm start
+   ./mvnw spring-boot:run
    ```
 
 ---
 
 ## Tech Stack
 
-- **Frontend**: React, HTML, CSS, JavaScript
-- **Backend**: Node.js, Express.js
+- **Backend**: Spring Boot (Java)
 - **Database**: AWS DocumentDB (MongoDB compatible)
 - **Hosting**: AWS EC2 Instance
 - **Authentication**: JWT (JSON Web Token)
-- **Styling**: Bootstrap or TailwindCSS
+- **Build Tool**: Maven
 
 ---
 
@@ -97,7 +96,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 If you have any questions or suggestions, feel free to reach out:
 
 - **Name**: Ayush Gupta
-- **Email**: [ayu1234shgupta@gmail.com](mailto\:ayu1234shgupta@gmail.com)
+- **Email**: [ayu1234shgupta@gmail.com](mailto:ayu1234shgupta@gmail.com)
 - **LinkedIn**: [Your LinkedIn Profile](#) *(Add your LinkedIn URL)*
 
 ---
