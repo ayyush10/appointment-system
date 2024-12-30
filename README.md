@@ -97,7 +97,7 @@ If you have any questions or suggestions, feel free to reach out:
 
 - **Name**: Ayush Gupta
 - **Email**: [ayu1234shgupta@gmail.com](mailto:ayu1234shgupta@gmail.com)
-- **LinkedIn**: [Your LinkedIn Profile](#) *(Add your LinkedIn URL)*
+
 
 ---
 
