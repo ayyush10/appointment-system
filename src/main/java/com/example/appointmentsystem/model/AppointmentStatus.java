@@ -1,2 +1,6 @@
-package com.example.appointmentsystem.model;public class AppointmentStatus {
+package com.example.appointmentsystem.model;
+
+public enum AppointmentStatus {
+    SCHEDULED,
+    CANCELLED
 }

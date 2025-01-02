@@ -1,2 +1,6 @@
-package com.example.appointmentsystem.model;public class UseRole {
+package com.example.appointmentsystem.model;
+
+public enum UserRole {
+    STUDENT,
+    PROFESSOR
 }
